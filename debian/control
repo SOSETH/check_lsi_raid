@@ -1,0 +1,14 @@
+Source: check-lsi-raid
+Section: devel
+Priority: optional
+Maintainer: Maximilian Falkenstein <mfalkenstein@sos.ethz.ch>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/thomas-krenn/check_lsi_raid
+Vcs-Git: https://github.com/SOSETH/check_lsi_raid.git
+Vcs-Browser: https://github.com/SOSETH/check_lsi_raid
+
+Package: check-lsi-raid
+Architecture: all
+Depends: ${perl:Depends}, storcli, libgetopt-long-descriptive-perl, libfile-which-perl
+Description: Check LSI/Avago/Broadcom MegaRAID status

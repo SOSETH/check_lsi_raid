@@ -1,0 +1,5 @@
+check-lsi-raid (2.5-0495085-1) unstable; urgency=medium
+
+  * Initial release, corresponds to upstream commit 0495085
+
+ -- Maximilian Falkenstein <mfalkenstein@sos.ethz.ch>  Mon, 11 Jun 2018 11:27:24 +0200
